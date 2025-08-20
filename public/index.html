@@ -29,7 +29,7 @@
         * {
             font-family: 'Poppins' ,sans-serif;
             scrollbar-width: none;
-            outline: 1px solid rgb(255, 0, 0);
+            /* outline: 1px solid rgb(255, 0, 0); */
             font-weight: 600;
         }
      </style>
@@ -96,31 +96,44 @@
 
     </section>
 
-    <section class="about" id="about">
-      <div class="about-title">
-        <H5 data-aos="fade-up">About Me</H5>
-        <hr>
-      </div>
-
-      <div class="about-content">
-        <div class="about-left" data-aos="fade-up" data-aos-delay="200">
-          <p>
-            Saya Dendy Putra Pratama, seorang pelajar SMK dengan jurusan Rekayasa Perangkat Lunak (RPL). Selama masa studi, 
-            saya telah mengembangkan keterampilan dalam pengembangan web menggunakan HTML, CSS, JavaScript, PHP, serta manajemen basis data dengan MySQL. 
-            Saya juga terbiasa menggunakan tools seperti Figma untuk desain UI, GitHub untuk version control, dan Laragon sebagai local development environment.
-          </p>
-          <button class="">Hire Me</button>
+      <section id="about" class="max-w-6xl mx-auto px-6 py-16">
+        <div class="mb-10">
+          <h2 class="text-sm font-bold tracking-widest uppercase mb-2" data-aos="fade-up">About Me</h2>
+          <div class="w-20 h-0.5 bg-black" data-aos="fade-right" data-aos-delay="300"></div>
         </div>
 
-        <div class="about-right" data-aos="fade-up" data-aos-delay="200">
-          <p>
-            Salah satu proyek yang pernah saya kerjakan adalah website e-commerce,perpustakaan sekolah, to do list dll.
-            Pengalaman ini memperkuat minat saya di bidang web development, khususnya dalam membangun solusi digital yang bermanfaat.
-            Saya terus belajar dan bersemangat mengembangkan diri di dunia teknologi, dengan harapan dapat berkontribusi lebih jauh di industri pengembangan perangkat lunak.
-          </p>
-          <button class="">Download CV</button>
+        
+        <div class="grid md:grid-cols-2 gap-10">
+          <div>
+            <p class="text-lg leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="200">
+              Saya Dendy Putra Pratama, seorang pelajar SMK dengan jurusan Rekayasa Perangkat Lunak (RPL). 
+              Selama masa studi, saya telah mengembangkan keterampilan dalam pengembangan web menggunakan 
+              HTML, CSS, JavaScript, PHP, serta manajemen basis data dengan MySQL. 
+              Saya juga terbiasa menggunakan tools seperti Figma untuk desain UI, GitHub untuk version control, 
+              dan Laragon sebagai local development environment.
+            </p>
+            <a href="#"
+              class="block w-full text-center border border-black py-3 font-semibold tracking-widest uppercase hover:bg-black hover:text-white transition">
+              Hire Me
+            </a>
+          </div>
+
+          <div>
+            <p class="text-lg leading-relaxed mb-6" data-aos="fade-up" data-aos-delay="200">
+        Salah satu proyek yang pernah saya kerjakan adalah website e-commerce, perpustakaan sekolah, 
+        to do list dll. Pengalaman ini memperkuat minat saya di bidang web development, khususnya dalam 
+        membangun solusi digital yang bermanfaat. Saya terus belajar dan bersemangat mengembangkan diri 
+        di dunia teknologi, dengan harapan dapat berkontribusi lebih jauh di industri pengembangan perangkat lunak.
+            </p>
+            <a href="#"
+              class="block w-full text-center bg-black text-white py-3 font-semibold tracking-widest uppercase hover:bg-gray-800 transition">
+              Download CV
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
+
+
 
       <!-- <div class="tech-stack">
         <div class="tech-text">
